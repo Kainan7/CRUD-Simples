@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.362);
+    padding: 20px;
+    margin-top: 50px; /* Adicionando espaço acima do container */
+}
+
+.jumbotron {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 300px;
+}
+
+h1 {
+    font-weight: 10;
+}
+
+h1, p {
+    padding-bottom: 30px; /* Adicionando espaço abaixo do texto */    
+}
+
+.Acesso {
+    margin-top: 15px; /* Ajustando o espaço abaixo do parágrafo com a classe "Acesso" */
+}
+
+
+.btn-primary{
+    background-color: #007bff; /* Cor de fundo do botão */
+    border-color: #007bff; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: inline-block; /* Garante que o link se comporte como bloco para aplicar propriedades como padding e border corretamente */
+}
+
+
+.btn-danger {
+    background-color: #ff0000; /* Cor de fundo do botão */
+    border-color: #ff0000a9; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: inline-block; /* Garante que o link se comporte como bloco para aplicar propriedades como padding e border corretamente */
+}
+
+
+

@@ -1,0 +1,102 @@
+/* Reset de algumas propriedades para evitar inconsistências entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do corpo do documento */
+body {
+    font-family: 'Arial', sans-serif; /* Escolha a fonte desejada */
+    background-color: antiquewhite; /* Cor de fundo geral */
+}
+
+/* Configurações para o contêiner principal da página */
+.container {
+    display: flex; /* Usa o modelo flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 90vh; /* Define a altura da tela inteira */
+}
+
+/* Configurações para o formulário principal */
+.row {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 50px; /* Aumentando o espaçamento interno */
+    width: 750px; /* Aumentando a largura para 8 da largura da tela */
+    max-width: 100%; /* Definindo uma largura máxima para melhor legibilidade */
+}
+
+/* Estilo para o cabeçalho h1 com classe display-4 */
+h1.display-4 {
+    font-weight: 10; /* Peso da fonte (note que o valor geralmente varia de 100 a 900) */
+    margin-bottom: 15px; /* Espaçamento na parte inferior */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilo padrão para a classe .form-group */
+.form-group {
+    width: 100%; /* Largura total disponível para .form-group */
+    margin-bottom: 20px; /* Espaçamento na parte inferior da form-group */
+}
+
+/* Estilo para o rótulo dentro de .form-group */
+.form-group label {
+    display: block; /* Faz o rótulo ocupar toda a largura disponível e ir para baixo */
+    font-weight: bold; /* Adiciona negrito ao texto do rótulo */
+    margin-bottom: 5px; /* Espaçamento na parte inferior do rótulo */
+}
+
+/* Estilo para a entrada de texto dentro de .form-group */
+.form-group input {
+    width: 100%; /* A largura da entrada de texto é 100% do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento interno à entrada de texto */
+    margin-top: 5px; /* Espaçamento na parte superior da entrada de texto */
+    margin-bottom: 10px; /* Espaçamento na parte inferior da entrada de texto */
+    border: 1px solid #ced4da; /* Adiciona uma borda à entrada de texto */
+    border-radius: 5px; /* Adiciona bordas arredondadas à entrada de texto */
+}
+
+/* Estilo para a pequena mensagem abaixo da entrada de texto no início */
+.form-group small {
+    color: #6c757d; /* Define a cor do texto para um tom mais suave */
+    margin-bottom: 10px; /* Espaçamento na parte inferior da pequena mensagem */
+}
+
+/* Estilo para o botão dentro de .form-group */
+.btn-primary {
+    background-color: #00ff00; /* Cor de fundo do botão */
+    border-color: #00ff00; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    transition: 1s; /* Transição suave durante 1 segundo */
+
+    display: block; /* Torna o botão um bloco para ocupar a largura total disponível */
+    margin: auto; /* Centraliza o botão horizontalmente */
+}
+
+/* Estilo para o botão quando o mouse está sobre ele */
+.btn-primary:hover {
+    box-shadow: 0px 5px 20px #07a4f271; /* Adiciona sombra ao passar o mouse */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+/* Estilo para o link "Voltar" */
+a.voltar {
+    background-color: #007bff; /* Cor de fundo do botão */
+    border-color: #007bff; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    transition: 1s; /* Transição suave durante 1 segundo */
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block; /* Altera o display para 'inline-block' para que ele fique centralizado */
+    margin-left: 18.4em; /* Empurra o botão para o final da linha */
+    text-decoration: none;
+}

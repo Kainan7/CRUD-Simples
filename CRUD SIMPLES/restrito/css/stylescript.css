@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.362);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px; /* Adicionando bordas arredondadas ao container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes na jumbotron */
+.jumbotron {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Adicionando espaço abaixo da jumbotron */
+}
+
+/* Estilo para o texto dentro da jumbotron */
+h1 {
+    font-weight: bold; /* Ajustando o peso da fonte */
+    color: #007bff; /* Cor do título */
+}
+
+/* Estilo para o parágrafo dentro da jumbotron */
+p {
+    padding-bottom: 20px; /* Adicionando espaço abaixo do texto */
+}
+
+/* Estilo para o botão "Voltar" */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilo para o botão "Cancelar" */
+.btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000a9;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilo para a imagem exibida após o cadastro */
+.mostra_foto {
+    width: 250px;
+    border-radius: 10px; /* Adicionando bordas arredondadas à imagem */
+    margin-top: 20px; /* Adicionando espaço acima da imagem */
+}

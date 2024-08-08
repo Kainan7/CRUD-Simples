@@ -1,0 +1,93 @@
+/* Reset de algumas propriedades para evitar inconsistências entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do corpo do documento */
+body {
+    font-family: 'Arial', sans-serif; /* Escolha a fonte desejada */
+    background-color: antiquewhite; /* Cor de fundo geral */
+}
+
+/* Configurações para o contêiner principal da página */
+.container {
+    display: flex; /* Usa o modelo flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 90vh; /* Define a altura da tela inteira */
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Configurações para o formulário principal */
+.jumbotron {
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    padding: 50px; /* Preenchimento interno do formulário */
+    height: 420px; /* Altura do formulário */
+    border-radius: 15px; /* Borda arredondada */
+    box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.1); /* Sombra para efeito de elevação */
+}
+
+/* Estilo para o cabeçalho h1 com classe display-4 */
+h1.display-4 {
+    font-weight: 10; /* Peso da fonte (note que o valor geralmente varia de 100 a 900) */
+    margin-bottom: 15px; /* Espaçamento na parte inferior */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilo padrão para a classe .form-group */
+.form-group {
+    margin-bottom: 20px; /* Espaçamento na parte inferior da form-group */
+}
+
+/* Estilo para o rótulo dentro de .form-group */
+.form-group label {
+    display: block; /* Faz o rótulo ocupar toda a largura disponível e ir pra debaixo*/
+    font-weight: bold; /* Adiciona negrito ao texto do rótulo */
+    margin-bottom: 5px; /* Espaçamento na parte inferior do rótulo */
+}
+
+/* Estilo para a entrada de texto dentro de .form-group */
+.form-group input {
+    width: 100%; /* A largura da entrada de texto é 100% do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento interno à entrada de texto */
+    margin-top: 5px; /* Espaçamento na parte superior da entrada de texto */
+    margin-bottom: 10px; /* Espaçamento na parte inferior da entrada de texto */
+    border: 1px solid #ced4da; /* Adiciona uma borda à entrada de texto */
+    border-radius: 5px; /* Adiciona bordas arredondadas à entrada de texto */
+}
+
+/* Estilo para a pequena mensagem abaixo da entrada de texto no início */
+.form-group small {
+    color: #6c757d; /* Define a cor do texto para um tom mais suave */
+    margin-bottom: 10px; /* Espaçamento na parte inferior da pequena mensagem */
+}
+
+
+
+/* Estilo para o botão dentro de .form-group */
+.btn-primary {
+    background-color: #007bff; /* Cor de fundo do botão */
+    border-color: #007bff; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    transition: 1s; /* Transição suave durante 1 segundo */
+    margin-top: 10px;
+
+    display: block; /* Torna o botão um bloco para ocupar a largura total disponível */
+    margin: auto; /* Centraliza o botão horizontalmente */
+    margin-top: 30px;
+}
+
+/* Estilo para o botão quando o mouse está sobre ele */
+.btn-primary:hover {
+    box-shadow: 0px 5px 20px #07a4f271; /* Adiciona sombra ao passar o mouse */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+}

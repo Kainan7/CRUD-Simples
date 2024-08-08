@@ -1,0 +1,103 @@
+/* Reset de margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o corpo da página */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: antiquewhite; /* Cor de fundo geral */
+    padding: 20px; /* distancia do inicio e a caixa */
+  }
+  
+/* Estilo para o container principal */
+.container {
+    display: flex;
+    justify-content:center; /* Centraliza horizontalmente */
+  }
+  
+/* Estilo para a coluna */
+.col {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 50px; /* Aumentando o espaçamento interno */
+    width: 750px; /* Aumentando a largura para 8 da largura da tela */
+    max-width: 100%; /* Definindo uma largura máxima para melhor legibilidade */
+}
+
+
+  /* Estilo para o cabeçalho (h1) */
+   h1 {
+    text-align: center; /* Ao meio */
+    font-weight: 10; /* Grossura */
+   }
+  
+  /* Estilo para o formulário */
+  form {
+    margin-top: 20px; /* Espaço do nome CADASTRO do forms */
+  }
+  
+  /* Estilo para as etiquetas dos campos */
+  label {
+    display: block; /* Põe os label um abaixo do outro */
+    font-weight: bold;
+    margin-bottom: 5px; /* espaçamento das label dos input */
+
+   }
+  
+  /* Estilo para os campos de entrada */
+   .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }  
+  
+  /* Estilo para o botão de enviar */
+   /* Estilo para o botão dentro de .form-group */
+.btn-primary {
+    background-color: #00ff00; /* Cor de fundo do botão */
+    border-color: #00ff00; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    transition: 1s; /* Transição suave durante 1 segundo */
+
+    display: block; /* Torna o botão um bloco para ocupar a largura total disponível */
+    margin: auto; /* Centraliza o botão horizontalmente */
+}
+
+/* Estilo para o botão quando o mouse está sobre ele */
+.btn-primary:hover {
+    box-shadow: 0px 0px 20px #13f20748; /* Adiciona sombra ao passar o mouse */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+  
+  /* Estilo para o botão de voltar */
+.btn-info {
+    background-color: #007bff; /* Cor de fundo do botão */
+    border-color: #007bff; /* Cor da borda do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona cursor de mão ao botão */
+    transition: 1s; /* Transição suave durante 1 segundo */
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block; /* Altera o display para 'inline-block' para que ele fique centralizado */
+    margin-left: 15.4em; /* Empurra o botão para o final da linha */
+    text-decoration: none;
+    
+    
+}
+   
+   /* Estilo para o botão quando o mouse está sobre ele */
+   .btn-info:hover {
+       box-shadow: 0px 0px 20px #07a4f271; /* Adiciona sombra ao passar o mouse */
+       transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+   }
